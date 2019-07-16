@@ -15,7 +15,7 @@ function createApplication () {
 
   // Enable Cross Origin Resource Sharing
   app.use((req, res, next) => {
-    res.header('Access-Control-Allow-Origin', 'https://sandbox.msgroupemutuel.ch')
+    res.header('Access-Control-Allow-Origin', '*')
     res.header('Access-Control-Allow-Headers', '*, Content-Type, Authorization')
     res.header('Access-Control-Allow-Methods', 'GET, DELETE, POST, PUT, OPTIONS')
     res.header('Access-Control-Max-Age', '86400')

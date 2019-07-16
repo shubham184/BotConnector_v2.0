@@ -16,7 +16,7 @@ module.exports = {
   },
   base_url: 'http://localhost:8082',
   skillsBuilderUrl: 'http://localhost:5000/',
-  "https": true,
+  "https": false,
   "keyfile": "gmclouddemo.westeurope.cloudapp.azure.com-key.pem",
   "certfile": "gmclouddemo.westeurope.cloudapp.azure.com-chain.pem"
 }

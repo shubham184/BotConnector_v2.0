@@ -7,7 +7,7 @@
     "lint": "./node_modules/eslint/bin/eslint.js src",
     "start": "npm run build && NODE_ENV=production node dist/index.js",
     "start:dev": "NODE_ENV=development nodemon src/index.js --exec babel-node",
-    "startdev": "NODE_ENV=development nodemon src/index.js --exec babel-node",
+    "startdev": "nodemon src/index.js --exec babel-node",
     "start:dev:debug": "NODE_ENV=development nodemon src/index.js --inspect --exec babel-node",
     "test": "NODE_ENV=test node ./node_modules/mocha/bin/mocha --recursive --require babel-core/register --exit --timeout 2500 'src/channel_integrations/**/test/**/*.js' 'test/**/*.js'",
     "test:debug": "NODE_ENV=test node ./node_modules/mocha/bin/mocha --inspect-brk --recursive --require babel-core/register --exit 'src/channel_integrations/**/test/**/*.js' 'test/**/*.js'",

@@ -300,8 +300,9 @@ export default class WebhooksController {
       'Content-Type': 'application/json',
     }
     logger.info(conversation.connector)
-    logger.info("posting to url " + conversation.connector.url)
-    return request.post(conversation.connector.url)
+    logger.info("posting to url " + conversation.connector.url);
+    const url = `${conversation.connector.url}/origin/${conversation.connector._id}`;
+    return request.post(url)
       .set(headers)
       .send({
         message,

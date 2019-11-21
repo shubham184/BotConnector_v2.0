@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ![Bot Connector Logo](https://cdn.cai.tools.sap/bot-connector/bot-connector-logo.png)
 
 | [Supported Channels](#supported-channels) | [Getting Started](#getting-started) | [How it works](#how-it-works) | [Messages Formats](#messages-format) | [Getting Started with SAP Conversational AI]( #getting-started-with-sap-conversational-ai) |
@@ -185,7 +184,3 @@ The webchat component will need to be compiled with the correct server FQDN of t
 ## ✍️ Authors <a name = "authors"></a>
 - [@SAP](https://github.com/SAPConversationalAI) - Idea & Initial work
 
-
-=======
-Empty readme
->>>>>>> fcb481f3ccd85bb9d776db220d8145aaf1e6a09f
